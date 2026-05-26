@@ -1,7 +1,7 @@
 ## 使用教程
 
 
-**一：Docker环境部署**
+### 一：Docker环境部署
 - 1.更新系统软件包
 ```
 apt update && apt upgrade -y
@@ -23,9 +23,8 @@ curl -L "https://github.com/docker/compose/releases/latest/download/docker-compo
 curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun
 ```
 
-### Xray+NPM
 
-**Docker-compose配置**
+### 二：Docker-compose配置
 
 ```yml      
 services:
@@ -84,7 +83,7 @@ networks:
         - subnet: fd00:1234:5678::/64
 ```
 
-### 启动命令
+### 三：启动命令
 
 - 1
 ```
@@ -109,7 +108,7 @@ docker compose up -d
 <img width="1155" alt="image" src="https://user-images.githubusercontent.com/92626977/218253971-60f11bbf-9de9-4082-9e46-12cd2aad79a1.png">
 
 
-###   NPM面板设置   
+### 四：NPM面板设置   
 **为了数据安全，请自行去[cloudflare](https://www.cloudflare.com)做端口回源** 
    - 为你的NPM面板解析一个域名（你的服务器IP）域名的SSL/TLS配置为灵活 然后创建一个规则 把端口转发到：81
    - 路径：Rules→ Overview→ Origin Rules
@@ -124,7 +123,7 @@ docker compose up -d
 | Force SSL | 必须打开                                                                     |
 | HTTP/2 Support | 必须打开                                                                     |
 
-### 客户端参数配置
+### 五：客户端参数配置
 **请严格对照以下参数修改你的客户端（如 v2rayN, Clash Meta 等）**
 
 |选项      | 说明                                                        |
