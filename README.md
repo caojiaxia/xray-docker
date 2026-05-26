@@ -119,6 +119,8 @@ docker compose up -d
 | Scheme | http                                                                           |
 | Forward Hostname / IP   | xray                                                           |
 | Forward Port   | 10000                                                                     |
+| Cache Assets   |   可选（建议打开）                                                          |
+| Block Common Exploits  |   可选（建议打开）                                                  |
 | Websockets Support | 必须打开                                                             |
 | Force SSL | 必须打开                                                                     |
 | HTTP/2 Support | 必须打开                                                                     |
