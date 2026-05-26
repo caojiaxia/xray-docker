@@ -37,7 +37,8 @@ services:
     restart: always
     environment:
       UUID: "xxxxxx"     
-      XPATH: "/xxxxxx"   
+      XPATH: "/xxxxxx"
+      DOMAIN_STRATEGY: UseIPv6        # IPv6优先  （可选） 
     networks:
       - xray_net
     # 限制日志大小
