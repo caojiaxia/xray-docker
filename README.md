@@ -126,7 +126,7 @@ docker compose up -d
 | Force SSL | 必须打开                                                                     |
 | HTTP/2 Support | 必须打开                                                                     |
 
-## 客户端参数配置
+### 客户端参数配置
 **请严格对照以下参数修改你的客户端（如 v2rayN, Clash Meta 等）**
 
 |选项      | 说明                                                        |
