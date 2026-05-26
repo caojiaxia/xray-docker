@@ -35,7 +35,7 @@ services:
     environment:
       UUID: "xxxxxx"     
       XPATH: "/xxxxxx"
-      DOMAIN_STRATEGY: UseIPv6        # IPv6优先  （可选） 
+      DOMAIN_STRATEGY: "AsIs" 
     networks:
       - xray_net
     # 限制日志大小
