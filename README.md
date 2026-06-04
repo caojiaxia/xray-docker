@@ -84,7 +84,8 @@ networks:
 ```
 **如果你不止一个容器运行，同时想让它运行在同一个网络下，请将network替换成如下：**
 
-```networks:
+```
+networks:
   # 定义自定义网络
   xray_net:        #已有的网络
     external: true   # 引用外部已存在的网络，实现跨项目容器通信,防止 Compose 自动创建带文件夹前缀的新网络
