@@ -86,8 +86,9 @@ networks:
 
 ```networks:
   # 定义自定义网络
-  decotv-network:        #已有的网络
-    external: true   # 引用外部已存在的网络，实现跨项目容器通信,防止 Compose 自动创建带文件夹前缀的新网络 
+  xray_net:        #已有的网络
+    external: true   # 引用外部已存在的网络，实现跨项目容器通信,防止 Compose 自动创建带文件夹前缀的新网络
+```
 
 
 ### 三：启动命令
